@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton_1/DemoSingleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton_1/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Singleton (lazy, one thread)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton2/DemoMultiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singleton2/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton_1/DemoSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton1/DemoSingleThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/singleton_1/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singleton1/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,8 +51,16 @@
       <option name="presentableId" value="Default" />
       <updated>1663783618652</updated>
       <workItem from="1663783620765" duration="654000" />
-      <workItem from="1664120737160" duration="1565000" />
+      <workItem from="1664120737160" duration="1935000" />
     </task>
+    <task id="LOCAL-00001" summary="Singleton (lazy, one thread)">
+      <created>1664122371673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664122371673</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Singleton (lazy, one thread)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton (lazy, one thread)" />
   </component>
 </project>
