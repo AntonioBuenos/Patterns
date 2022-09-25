@@ -1,4 +1,4 @@
-package singleton1;
+package pattern1_1_singleton_lazy_onethread;
 
 public final class Singleton {
     private static Singleton instance;

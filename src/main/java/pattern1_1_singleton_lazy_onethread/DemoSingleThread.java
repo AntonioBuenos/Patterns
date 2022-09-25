@@ -1,4 +1,4 @@
-package singleton1;
+package pattern1_1_singleton_lazy_onethread;
 
 public class DemoSingleThread {
 

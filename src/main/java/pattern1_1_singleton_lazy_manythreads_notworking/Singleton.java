@@ -1,4 +1,4 @@
-package singleton2;
+package pattern1_1_singleton_lazy_manythreads_notworking;
 
 public final class Singleton {
     private static Singleton instance;

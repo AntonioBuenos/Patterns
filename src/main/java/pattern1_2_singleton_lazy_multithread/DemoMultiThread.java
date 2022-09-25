@@ -1,4 +1,4 @@
-package singleton2;
+package pattern1_2_singleton_lazy_multithread;
 
 public class DemoMultiThread {
 
