@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Singleton (lazy, multithread)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern1_2_singleton_lazy_multithread/DemoMultiThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern1_2_singleton_lazy_multithread/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton1/DemoSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern1_1_singleton_lazy_onethread/DemoSingleThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton1/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern1_1_singleton_lazy_onethread/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton2/DemoMultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern1_1_singleton_lazy_manythreads_notworking/DemoMultiThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singleton2/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pattern1_1_singleton_lazy_manythreads_notworking/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DemoMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern1_2_singleton_lazy_multithread.DemoMultiThread" />
@@ -59,11 +53,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.pattern1_2_singleton_lazy_multithread.DemoMultiThread" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663783618652</updated>
       <workItem from="1663783620765" duration="654000" />
-      <workItem from="1664120737160" duration="2579000" />
+      <workItem from="1664120737160" duration="3957000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton (lazy, one thread)">
       <created>1664122371673</created>
@@ -90,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664122747688</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Singleton (lazy, multithread)">
+      <created>1664123364915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664123364915</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
