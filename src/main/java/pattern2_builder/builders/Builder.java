@@ -1,0 +1,16 @@
+package pattern2_builder.builders;
+
+import pattern2_builder.cars.CarType;
+import pattern2_builder.components.Engine;
+import pattern2_builder.components.GPSNavigator;
+import pattern2_builder.components.Transmission;
+import pattern2_builder.components.TripComputer;
+
+public interface Builder {
+    void setCarType(CarType type);
+    void setSeats(int seats);
+    void setEngine(Engine engine);
+    void setTransmission(Transmission transmission);
+    void setTripComputer(TripComputer tripComputer);
+    void setGPSNavigator(GPSNavigator gpsNavigator);
+}

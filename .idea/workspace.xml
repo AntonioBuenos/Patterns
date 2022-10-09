@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Singleton (lazy, multithread)">
+    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Singleton (enum)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/builders/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/builders/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/builders/CarManualBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/cars/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/cars/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/cars/Manual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/components/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/components/GPSNavigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/components/Transmission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/components/TripComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/director/Director.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -39,7 +53,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="DemoMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern1_2_singleton_lazy_multithread.DemoMultiThread" />
       <module name="Patterns" />
@@ -53,6 +67,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern2_builder.Runner" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern2_builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +96,9 @@
       <updated>1663783618652</updated>
       <workItem from="1663783620765" duration="654000" />
       <workItem from="1664120737160" duration="3957000" />
+      <workItem from="1664214132621" duration="851000" />
+      <workItem from="1664257224255" duration="595000" />
+      <workItem from="1665334090567" duration="1411000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton (lazy, one thread)">
       <created>1664122371673</created>
@@ -86,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664123364915</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Singleton (enum)">
+      <created>1664214389053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664214389053</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton (lazy, one thread)" />
     <MESSAGE value="Singleton (lazy, multithread)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton (lazy, multithread)" />
+    <MESSAGE value="Singleton (enum)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Singleton (enum)" />
   </component>
 </project>
