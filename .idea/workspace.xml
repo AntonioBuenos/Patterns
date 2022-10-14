@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Singleton (enum)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/builders/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/builders/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/builders/CarManualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/cars/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/cars/Manual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/components/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/components/GPSNavigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/components/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/components/TripComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern2_builder/director/Director.java" afterDir="false" />
+    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Builder">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c685eda36bb0ff8a558e9311cf885e0e7997eff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d1c5c940c21198e1b5617eb0206ec17151c6f16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d8c140b0572c42a9bc8836750e8a929ea53cfe3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b926ad63001ad5eafe16a0f562c51d41dac52e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d67559f0b4d8646af3f97b284c1824482097c91" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88fbe0e3a1f296252b27ccbdde85cc699ca2acb3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baff00686819b5f1661f65b4408dfb4ca5bd3412" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/defeab54aa6314fa41f0e5e6b56a674c7bbd40a3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f17c0f0a9067e7a3abb4925f5f39ecf8238468ef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern3_factory/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern3_factory/buttons/HtmlButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pattern3_factory/buttons/WindowsButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,15 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
-  <component name="RunManager" selected="Application.Runner">
+}]]></component>
+  <component name="RunManager" selected="Application.pattern3_factory.Runner">
     <configuration name="DemoMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pattern1_2_singleton_lazy_multithread.DemoMultiThread" />
       <module name="Patterns" />
@@ -80,8 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="pattern3_factory.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern3_factory.Runner" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern3_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pattern3_factory.Runner" />
         <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
@@ -98,7 +117,8 @@
       <workItem from="1664120737160" duration="3957000" />
       <workItem from="1664214132621" duration="851000" />
       <workItem from="1664257224255" duration="595000" />
-      <workItem from="1665334090567" duration="1411000" />
+      <workItem from="1665334090567" duration="2210000" />
+      <workItem from="1665779265137" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton (lazy, one thread)">
       <created>1664122371673</created>
@@ -128,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664214389053</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Builder">
+      <created>1665336034916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665336034916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +176,7 @@
     <MESSAGE value="Singleton (lazy, one thread)" />
     <MESSAGE value="Singleton (lazy, multithread)" />
     <MESSAGE value="Singleton (enum)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton (enum)" />
+    <MESSAGE value="Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
   </component>
 </project>
