@@ -1,4 +1,4 @@
-package pattern3_factory.buttons;
+package pattern4_factory.buttons;
 
 import javax.swing.*;
 import java.awt.*;

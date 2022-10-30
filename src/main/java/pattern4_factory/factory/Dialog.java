@@ -1,6 +1,6 @@
-package pattern3_factory.factory;
+package pattern4_factory.factory;
 
-import pattern3_factory.buttons.Button;
+import pattern4_factory.buttons.Button;
 
 public abstract class Dialog {
 

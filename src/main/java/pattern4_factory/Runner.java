@@ -1,8 +1,8 @@
-package pattern3_factory;
+package pattern4_factory;
 
-import pattern3_factory.factory.Dialog;
-import pattern3_factory.factory.HtmlDialog;
-import pattern3_factory.factory.WindowsDialog;
+import pattern4_factory.factory.Dialog;
+import pattern4_factory.factory.HtmlDialog;
+import pattern4_factory.factory.WindowsDialog;
 
 public class Runner {
 

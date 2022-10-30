@@ -1,4 +1,4 @@
-package pattern3_factory.buttons;
+package pattern4_factory.buttons;
 
 public class HtmlButton implements Button{
 
