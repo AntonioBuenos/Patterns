@@ -1,9 +1,9 @@
-package pattern3_abstruct_factory.factories;
+package pattern3_abstract_factory.factories;
 
-import pattern3_abstruct_factory.buttons.Button;
-import pattern3_abstruct_factory.buttons.WindowsButton;
-import pattern3_abstruct_factory.checkboxes.Checkbox;
-import pattern3_abstruct_factory.checkboxes.WindowsCheckbox;
+import pattern3_abstract_factory.buttons.Button;
+import pattern3_abstract_factory.buttons.WindowsButton;
+import pattern3_abstract_factory.checkboxes.Checkbox;
+import pattern3_abstract_factory.checkboxes.WindowsCheckbox;
 
 /**
  * Каждая конкретная фабрика знает и создаёт только продукты своей вариации.

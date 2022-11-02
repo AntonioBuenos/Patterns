@@ -1,4 +1,4 @@
-package pattern3_abstruct_factory.checkboxes;
+package pattern3_abstract_factory.checkboxes;
 
 /**
  * Чекбоксы — это второе семейство продуктов. Оно имеет те же вариации, что и

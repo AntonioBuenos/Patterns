@@ -1,4 +1,4 @@
-package pattern3_abstruct_factory.buttons;
+package pattern3_abstract_factory.buttons;
 
 /**
  * Все семейства продуктов имеют одни и те же вариации (MacOS/Windows).

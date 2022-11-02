@@ -1,4 +1,4 @@
-package pattern3_abstruct_factory.checkboxes;
+package pattern3_abstract_factory.checkboxes;
 
 /**
  * Все семейства продуктов имеют одинаковые вариации (MacOS/Windows).

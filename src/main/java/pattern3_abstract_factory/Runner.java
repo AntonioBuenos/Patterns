@@ -1,9 +1,9 @@
-package pattern3_abstruct_factory;
+package pattern3_abstract_factory;
 
-import pattern3_abstruct_factory.app.Application;
-import pattern3_abstruct_factory.factories.GUIFactory;
-import pattern3_abstruct_factory.factories.MacOSFactory;
-import pattern3_abstruct_factory.factories.WindowsFactory;
+import pattern3_abstract_factory.app.Application;
+import pattern3_abstract_factory.factories.GUIFactory;
+import pattern3_abstract_factory.factories.MacOSFactory;
+import pattern3_abstract_factory.factories.WindowsFactory;
 
 public class Runner {
 

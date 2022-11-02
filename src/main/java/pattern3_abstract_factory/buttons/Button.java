@@ -1,4 +1,4 @@
-package pattern3_abstruct_factory.buttons;
+package pattern3_abstract_factory.buttons;
 
 /**
  * Паттерн предполагает, что у вас есть несколько семейств продуктов,

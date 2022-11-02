@@ -1,8 +1,8 @@
-package pattern3_abstruct_factory.app;
+package pattern3_abstract_factory.app;
 
-import pattern3_abstruct_factory.buttons.Button;
-import pattern3_abstruct_factory.checkboxes.Checkbox;
-import pattern3_abstruct_factory.factories.GUIFactory;
+import pattern3_abstract_factory.buttons.Button;
+import pattern3_abstract_factory.checkboxes.Checkbox;
+import pattern3_abstract_factory.factories.GUIFactory;
 
 /**
  * Код, использующий фабрику, не волнует с какой конкретно фабрикой он работает.
