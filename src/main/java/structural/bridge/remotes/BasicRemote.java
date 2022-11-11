@@ -1,6 +1,6 @@
-package structural.pattern7_bridge.remotes;
+package structural.bridge.remotes;
 
-import structural.pattern7_bridge.devices.Device;
+import structural.bridge.devices.Device;
 
 public class BasicRemote implements Remote {
     protected Device device;

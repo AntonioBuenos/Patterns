@@ -1,4 +1,4 @@
-package structural.pattern7_bridge.remotes;
+package structural.bridge.remotes;
 
 public interface Remote {
     void power();

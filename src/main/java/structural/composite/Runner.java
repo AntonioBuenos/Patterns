@@ -1,10 +1,10 @@
-package structural.pattern8_composite;
+package structural.composite;
 
-import structural.pattern8_composite.editor.ImageEditor;
-import structural.pattern8_composite.shapes.Circle;
-import structural.pattern8_composite.shapes.CompoundShape;
-import structural.pattern8_composite.shapes.Dot;
-import structural.pattern8_composite.shapes.Rectangle;
+import structural.composite.editor.ImageEditor;
+import structural.composite.shapes.Circle;
+import structural.composite.shapes.CompoundShape;
+import structural.composite.shapes.Dot;
+import structural.composite.shapes.Rectangle;
 
 import java.awt.*;
 

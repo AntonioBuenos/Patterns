@@ -1,7 +1,7 @@
-package structural.pattern8_composite.editor;
+package structural.composite.editor;
 
-import structural.pattern8_composite.shapes.CompoundShape;
-import structural.pattern8_composite.shapes.Shape;
+import structural.composite.shapes.CompoundShape;
+import structural.composite.shapes.Shape;
 
 import javax.swing.*;
 import javax.swing.border.Border;

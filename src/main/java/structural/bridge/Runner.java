@@ -1,10 +1,10 @@
-package structural.pattern7_bridge;
+package structural.bridge;
 
-import structural.pattern7_bridge.devices.Device;
-import structural.pattern7_bridge.devices.Radio;
-import structural.pattern7_bridge.devices.Tv;
-import structural.pattern7_bridge.remotes.AdvancedRemote;
-import structural.pattern7_bridge.remotes.BasicRemote;
+import structural.bridge.devices.Device;
+import structural.bridge.devices.Radio;
+import structural.bridge.devices.Tv;
+import structural.bridge.remotes.AdvancedRemote;
+import structural.bridge.remotes.BasicRemote;
 
 public class Runner {
 

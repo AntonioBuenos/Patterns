@@ -1,4 +1,4 @@
-package structural.pattern7_bridge.devices;
+package structural.bridge.devices;
 
 public interface Device {
     boolean isEnabled();
