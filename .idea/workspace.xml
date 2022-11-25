@@ -4,23 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Builder">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c685eda36bb0ff8a558e9311cf885e0e7997eff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d1c5c940c21198e1b5617eb0206ec17151c6f16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d8c140b0572c42a9bc8836750e8a929ea53cfe3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b926ad63001ad5eafe16a0f562c51d41dac52e2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d67559f0b4d8646af3f97b284c1824482097c91" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88fbe0e3a1f296252b27ccbdde85cc699ca2acb3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baff00686819b5f1661f65b4408dfb4ca5bd3412" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/defeab54aa6314fa41f0e5e6b56a674c7bbd40a3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f17c0f0a9067e7a3abb4925f5f39ecf8238468ef" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern3_factory/buttons/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern3_factory/buttons/HtmlButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pattern3_factory/buttons/WindowsButton.java" afterDir="false" />
+    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Iterator">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/863e0292fd7e9b3e74dafd6cc01f73ba76346482" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/components/AddButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/components/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/components/DeleteButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/components/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/components/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/components/SaveButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/components/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/components/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/mediator/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/mediator/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/mediator/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c685eda36bb0ff8a558e9311cf885e0e7997eff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d1c5c940c21198e1b5617eb0206ec17151c6f16" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d8c140b0572c42a9bc8836750e8a929ea53cfe3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b926ad63001ad5eafe16a0f562c51d41dac52e2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d67559f0b4d8646af3f97b284c1824482097c91" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88fbe0e3a1f296252b27ccbdde85cc699ca2acb3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baff00686819b5f1661f65b4408dfb4ca5bd3412" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/defeab54aa6314fa41f0e5e6b56a674c7bbd40a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f17c0f0a9067e7a3abb4925f5f39ecf8238468ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,22 +57,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.pattern3_factory.Runner">
-    <configuration name="DemoMultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern1_2_singleton_lazy_multithread.DemoMultiThread" />
+}</component>
+  <component name="RunManager" selected="Application.behavioral.mediator.mediator.Runner">
+    <configuration name="behavioral.command.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.command.Runner" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern1_2_singleton_lazy_multithread.*" />
+          <option name="PATTERN" value="behavioral.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern2_builder.Runner" />
+    <configuration name="behavioral.iterator.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.iterator.Runner" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern2_builder.*" />
+          <option name="PATTERN" value="behavioral.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +93,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pattern3_factory.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern3_factory.Runner" />
+    <configuration name="behavioral.mediator.mediator.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.mediator.mediator.Runner" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern3_factory.*" />
+          <option name="PATTERN" value="behavioral.mediator.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="structural.flyweight.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Runner" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="structural.proxy.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.proxy.Runner" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pattern3_factory.Runner" />
-        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.behavioral.mediator.mediator.Runner" />
+        <item itemvalue="Application.behavioral.iterator.Runner" />
+        <item itemvalue="Application.behavioral.command.Runner" />
+        <item itemvalue="Application.structural.proxy.Runner" />
+        <item itemvalue="Application.structural.flyweight.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +155,15 @@
       <workItem from="1664214132621" duration="851000" />
       <workItem from="1664257224255" duration="595000" />
       <workItem from="1665334090567" duration="2210000" />
-      <workItem from="1665779265137" duration="299000" />
+      <workItem from="1665779265137" duration="610000" />
+      <workItem from="1667150525140" duration="1476000" />
+      <workItem from="1667157717420" duration="1287000" />
+      <workItem from="1667304514587" duration="4490000" />
+      <workItem from="1667762521936" duration="3359000" />
+      <workItem from="1668104802395" duration="4303000" />
+      <workItem from="1668346959204" duration="4915000" />
+      <workItem from="1668862912935" duration="2781000" />
+      <workItem from="1669383462754" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton (lazy, one thread)">
       <created>1664122371673</created>
@@ -155,7 +200,119 @@
       <option name="project" value="LOCAL" />
       <updated>1665336034916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Factory">
+      <created>1665779866833</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665779866833</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Abstract Factory">
+      <created>1667151942460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667151942460</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Prototype">
+      <created>1667158364584</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667158364584</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Prototype">
+      <created>1667396855414</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667396855414</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adapter (Wrapper)">
+      <created>1667397723108</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667397723108</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Bridge">
+      <created>1667485684947</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667485684947</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Composite">
+      <created>1667762591572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667762591572</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Composite">
+      <created>1667831111876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667831111876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Refactored">
+      <created>1667831778361</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667831778361</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Decorator">
+      <created>1668105314133</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668105314133</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Facade">
+      <created>1668174855853</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668174855853</updated>
+    </task>
+    <task id="LOCAL-00017" summary="FlyWeight">
+      <created>1668348188042</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668348188042</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Proxy">
+      <created>1668363428007</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668363428007</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Chain of Responsibilities">
+      <created>1668427538761</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668427538761</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Command">
+      <created>1668863618526</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668863618526</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Iterator">
+      <created>1668864499913</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668864499913</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +334,20 @@
     <MESSAGE value="Singleton (lazy, multithread)" />
     <MESSAGE value="Singleton (enum)" />
     <MESSAGE value="Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder" />
+    <MESSAGE value="Factory" />
+    <MESSAGE value="Abstract Factory" />
+    <MESSAGE value="Prototype" />
+    <MESSAGE value="Adapter (Wrapper)" />
+    <MESSAGE value="Bridge" />
+    <MESSAGE value="Composite" />
+    <MESSAGE value="Refactored" />
+    <MESSAGE value="Decorator" />
+    <MESSAGE value="Facade" />
+    <MESSAGE value="FlyWeight" />
+    <MESSAGE value="Proxy" />
+    <MESSAGE value="Chain of Responsibilities" />
+    <MESSAGE value="Command" />
+    <MESSAGE value="Iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Iterator" />
   </component>
 </project>
