@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Mediator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/commands/ColorCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/commands/MoveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/editor/Canvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/editor/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/history/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/history/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/shapes/BaseShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/shapes/CompoundShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/shapes/Dot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/shapes/Shape.java" afterDir="false" />
+    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Memento">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/editor/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/EmailNotificationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/LogOpenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/publisher/EventManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +48,20 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.behavioral.mediator.mediator.Runner">
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.observer.Runner" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="behavioral.command.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.command.Runner" />
       <module name="Patterns" />
@@ -96,19 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.flyweight.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Runner" />
-      <module name="Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.flyweight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="structural.proxy.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.proxy.Runner" />
       <module name="Patterns" />
@@ -124,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.behavioral.mediator.mediator.Runner" />
         <item itemvalue="Application.behavioral.iterator.Runner" />
         <item itemvalue="Application.behavioral.command.Runner" />
         <item itemvalue="Application.structural.proxy.Runner" />
-        <item itemvalue="Application.structural.flyweight.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +145,7 @@
       <workItem from="1668104802395" duration="4303000" />
       <workItem from="1668346959204" duration="4915000" />
       <workItem from="1668862912935" duration="2781000" />
-      <workItem from="1669383462754" duration="2746000" />
+      <workItem from="1669383462754" duration="4597000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton (lazy, one thread)">
       <created>1664122371673</created>
@@ -309,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669384546731</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Memento">
+      <created>1669492890967</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1669492890968</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +345,7 @@
     <MESSAGE value="Command" />
     <MESSAGE value="Iterator" />
     <MESSAGE value="Mediator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mediator" />
+    <MESSAGE value="Memento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memento" />
   </component>
 </project>
