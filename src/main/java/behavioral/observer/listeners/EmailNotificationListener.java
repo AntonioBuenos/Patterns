@@ -1,4 +1,4 @@
-package behavioral.chain_of_responsibility.observer.listeners;
+package behavioral.observer.listeners;
 
 import java.io.File;
 
