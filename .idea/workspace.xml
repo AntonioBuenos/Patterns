@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Memento">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/editor/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/EmailNotificationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/LogOpenListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/publisher/EventManager.java" afterDir="false" />
+    <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Observer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/states/LockedState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/states/PlayingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/states/ReadyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/states/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/ui/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/ui/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/editor/Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/EmailNotificationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/listeners/EmailNotificationListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/listeners/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/LogOpenListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/listeners/LogOpenListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/publisher/EventManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/publisher/EventManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +152,7 @@
       <workItem from="1668104802395" duration="4303000" />
       <workItem from="1668346959204" duration="4915000" />
       <workItem from="1668862912935" duration="2781000" />
-      <workItem from="1669383462754" duration="4597000" />
+      <workItem from="1669383462754" duration="6265000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton (lazy, one thread)">
       <created>1664122371673</created>
@@ -308,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669492890968</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Observer">
+      <created>1669569829369</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1669569829369</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +360,7 @@
     <MESSAGE value="Iterator" />
     <MESSAGE value="Mediator" />
     <MESSAGE value="Memento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Memento" />
+    <MESSAGE value="Observer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Observer" />
   </component>
 </project>

@@ -1,6 +1,6 @@
-package behavioral.observer.editor;
+package behavioral.chain_of_responsibility.observer.editor;
 
-import behavioral.observer.publisher.EventManager;
+import behavioral.chain_of_responsibility.observer.publisher.EventManager;
 
 import java.io.File;
 

@@ -1,6 +1,6 @@
-package behavioral.observer.publisher;
+package behavioral.chain_of_responsibility.observer.publisher;
 
-import behavioral.observer.listeners.EventListener;
+import behavioral.chain_of_responsibility.observer.listeners.EventListener;
 
 import java.io.File;
 import java.util.ArrayList;

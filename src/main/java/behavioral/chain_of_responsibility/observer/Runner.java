@@ -1,8 +1,8 @@
-package behavioral.observer;
+package behavioral.chain_of_responsibility.observer;
 
-import behavioral.observer.editor.Editor;
-import behavioral.observer.listeners.EmailNotificationListener;
-import behavioral.observer.listeners.LogOpenListener;
+import behavioral.chain_of_responsibility.observer.editor.Editor;
+import behavioral.chain_of_responsibility.observer.listeners.EmailNotificationListener;
+import behavioral.chain_of_responsibility.observer.listeners.LogOpenListener;
 
 public class Runner {
 
