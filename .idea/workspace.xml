@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9c3d7b8-61c9-4201-8070-8d6d17ae7797" name="Changes" comment="Observer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/states/LockedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/states/PlayingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/states/ReadyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/states/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/ui/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/ui/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/strategies/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/strategies/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/strategies/PayByCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/strategies/PayByPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/strategies/PayStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/editor/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/editor/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/EmailNotificationListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/listeners/EmailNotificationListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/listeners/EventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/listeners/LogOpenListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/listeners/LogOpenListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/observer/publisher/EventManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/chain_of_responsibility/observer/publisher/EventManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,26 +48,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.behavioral.strategy.Runner">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.observer.Runner" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behavioral.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="behavioral.command.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.command.Runner" />
-      <module name="Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioral.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="structural.proxy.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.proxy.Runner" />
+    <configuration name="behavioral.state.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.state.Runner" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.proxy.*" />
+          <option name="PATTERN" value="behavioral.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="behavioral.strategy.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.Runner" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavioral.strategy.Runner" />
+        <item itemvalue="Application.behavioral.state.Runner" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.behavioral.mediator.mediator.Runner" />
         <item itemvalue="Application.behavioral.iterator.Runner" />
-        <item itemvalue="Application.behavioral.command.Runner" />
-        <item itemvalue="Application.structural.proxy.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +146,9 @@
       <workItem from="1668346959204" duration="4915000" />
       <workItem from="1668862912935" duration="2781000" />
       <workItem from="1669383462754" duration="6265000" />
+      <workItem from="1669721759315" duration="1462000" />
+      <workItem from="1669809916280" duration="592000" />
+      <workItem from="1670091728660" duration="1452000" />
     </task>
     <task id="LOCAL-00001" summary="Singleton (lazy, one thread)">
       <created>1664122371673</created>
