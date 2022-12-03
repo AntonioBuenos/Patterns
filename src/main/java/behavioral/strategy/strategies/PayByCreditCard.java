@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  * картой клиента.
  */
 public class PayByCreditCard implements PayStrategy {
-    private final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
+    private final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private CreditCard card;
 
     /**
@@ -19,11 +19,11 @@ public class PayByCreditCard implements PayStrategy {
     public void collectPaymentDetails() {
         try {
             System.out.print("Enter the card number: ");
-            String number = READER.readLine();
+            String number = reader.readLine();
             System.out.print("Enter the card expiration date 'mm/yy': ");
-            String date = READER.readLine();
+            String date = reader.readLine();
             System.out.print("Enter the CVV code: ");
-            String cvv = READER.readLine();
+            String cvv = reader.readLine();
             card = new CreditCard(number, date, cvv);
 
             // Валидируем номер карты...

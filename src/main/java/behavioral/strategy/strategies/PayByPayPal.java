@@ -1,7 +1,5 @@
 package behavioral.strategy.strategies;
 
-import behavioral.strategy.strategies.PayStrategy;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +12,7 @@ import java.util.Map;
  */
 public class PayByPayPal implements PayStrategy {
     private static final Map<String, String> DATA_BASE = new HashMap<>();
-    private final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
+    private final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private String email;
     private String password;
     private boolean signedIn;
@@ -32,9 +30,9 @@ public class PayByPayPal implements PayStrategy {
         try {
             while (!signedIn) {
                 System.out.print("Enter the user's email: ");
-                email = READER.readLine();
+                email = reader.readLine();
                 System.out.print("Enter the password: ");
-                password = READER.readLine();
+                password = reader.readLine();
                 if (verify()) {
                     System.out.println("Data verification has been successful.");
                 } else {
