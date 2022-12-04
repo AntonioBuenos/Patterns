@@ -22,9 +22,10 @@ public class Runner {
         System.out.print("Input message: ");
         String message = reader.readLine();
 
-        System.out.println("\nChoose social network for posting message.\n" +
-                "1 - Facebook\n" +
-                "2 - Twitter");
+        System.out.println("""
+                Choose social network for posting message.
+                1 - Facebook
+                2 - Twitter""");
         int choice = Integer.parseInt(reader.readLine());
 
         // Создаем сетевые объекты и публикуем пост.
